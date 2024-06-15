@@ -1,0 +1,286 @@
+.test-border{
+    border-style:dotted;
+}
+
+#navbar {
+    display:flex;
+    background-color:#111927;
+    margin-bottom: 0;
+}
+
+#second-Principal {
+    display:flex;
+    background-color:#111927;
+    margin-bottom: 0;
+}
+
+#navbar-sign-in {
+    margin-left:auto;
+    color:rgb(159, 239, 0);
+}
+
+#navbar-join-now {
+    margin-left:18%;
+    color:rgb(159, 239, 0);
+    padding: 2%;
+    height:70%;
+}
+
+#navbar-join-now:hover {
+    background-color: rgb(159, 239, 0);
+    color:#111927;
+    border-radius: 5%;
+}
+
+#form-container {
+    width: 50%;
+    margin:auto;
+}
+
+#input-search {
+    width: 100%;
+    padding:4%;
+    border:0;
+    margin-bottom: 5%;
+    background-color:rgb(159, 239, 0);
+    border-radius: 3%;
+    font-size:75%;
+    font-weight: bold;
+}
+
+#third-container-text {
+    width: 60%;
+    /* margin: 10%,0,10%,10%; */
+
+}
+
+#input-get-started {
+    width: 35%;
+    padding:3%;
+    border:0;
+    margin-bottom: 5%;
+    background-color:rgb(159, 239, 0);
+    border-radius: 3%;
+    font-size:75%;
+    font-weight: bold;
+}
+
+#table-settings {
+    padding:25%;
+}
+
+#table-text {
+    font-family: Arial,sans-serif;
+    font-weight:200;
+    color: #a4b1cd;
+    text-align:center;
+}
+
+#image-container {
+    width:40%;
+
+}
+
+#first-image {
+    width:100%
+}
+
+#footer-image {
+    width:100%
+}
+
+#fourth-container-flex {
+    display:flex;
+    background-color:#111927;
+    padding-bottom: 2%;
+}
+
+#footer{
+    padding-top: 5%;
+    background-color:#111927;
+}
+
+.end-footer{
+    display:flex;
+    background-color:#111927;
+}
+
+.navbar-option {
+    margin-left: 4%;
+    padding: 2%;
+    font-size: 75%;
+    font-family: Monaco ,sans-serif;
+}
+
+.navbar-option2 {
+    margin-left: 4%;
+    padding: 2%;
+    font-size: 100%;
+    font-family: Monaco ,sans-serif;
+    color: #a4b1cd;
+}
+
+.click-text:hover{
+    color: white;
+}
+
+.click-text{
+    font-size: 100%;
+    font-family: Monaco ,sans-serif;
+    color: #a4b1cd;
+    text-decoration: none;
+}
+
+#btn-sign-in:hover{
+    color: white;
+}
+#btn-sign-in{
+    font-size: 100%;
+    font-family: Monaco ,sans-serif;
+    color: rgb(159, 239, 0);
+    text-decoration: none;
+}
+
+
+.second-heading {
+    margin-left: 0%;
+    width: 25%;
+ 
+}
+
+.second-Principal {
+    background-color:#141d2b;
+    width: 175;
+    height: 55;
+ 
+}
+
+.Titre {
+    font-family: Arial,sans-serif;
+    font-size: 40px; 
+    font-weight:700;
+    color:white; 
+    text-align:center;
+    margin: 0;
+}
+
+.textGris {
+    font-family: Arial,sans-serif;
+    font-weight:200;
+    color: #a4b1cd;
+    text-align:center;
+}
+
+.textGrisFooter {
+    font-family: Arial,sans-serif;
+    font-weight:200;
+    color: #a4b1cd;
+    text-align:left;
+    margin-top: 5%;
+}
+
+body{
+    margin: 0;
+}
+
+
+.second-container {
+    margin-top: 0;
+    background-color:#141d2b;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.input-text {
+    width: 92%;
+    padding:4%;
+    border:0;
+    margin-bottom: 5%;
+    color: #a4b1cd;
+    background-color: rgb(26, 35, 50);
+    border-radius: 3%
+}
+
+.input-text::placeholder {
+    color: #a4b1cd;
+}
+
+#third-container {
+    display: flex;
+    margin-top: 0;
+    background-color: rgb(26, 35, 50);
+    padding: 10%;
+}
+
+
+.sous-titre {
+    font-family: Arial,sans-serif;
+    font-size: 40px; 
+    font-weight:700;
+    color:white;
+    margin: 0;
+}
+
+.textBlanc {
+    font-family: Arial,sans-serif;
+    font-weight:200;
+    color: #a4b1cd;
+    text-align: left;
+    margin: 10%,0%,10%,0%;
+}
+
+.textBlancBold {
+    font-family: Arial,sans-serif;
+    font-weight:200;
+    color: white;
+    text-align: left;
+    margin: 10%,0%,10%,0%;
+    font-weight: bold;
+
+}
+
+
+
+.center  {
+    width: 100%;
+    border-radius: 5%;
+    transform: rotate(10deg);
+}
+
+.fourth-container {
+    margin-top: 0;
+    background-color:#141d2b;
+}
+
+.footer-columns {
+    width: 25%;
+    margin-left: 5%;
+}
+
+.end-footer-gris {
+    font-family: Arial,sans-serif;
+    font-weight:200;
+    color: #a4b1cd;
+    width: 33%;
+    text-align: center;
+}
+
+.end-second-footer-gris {
+    font-family: Arial,sans-serif;
+    font-weight:200;
+    color: #a4b1cd;
+    width: 45%;
+    text-align: center;
+}
+
+.input-submit:hover{
+    cursor: pointer;   
+}
+
+#input-get-started:hover{
+    background-color:#bbff34;
+}
+
+#input-search:hover{
+    background-color:#bbff34;
+}
