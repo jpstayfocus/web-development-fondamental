@@ -1,0 +1,47 @@
+#header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#yearContainer {
+    color: black;
+    text-align: center;
+    color: rgb(7, 7, 7);
+}
+
+#lance {
+    color: black;
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+
+#table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+#bouton {
+  background-color: #86188a; 
+  border:salmon;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+td, th {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(207, 66, 66),rgb(167, 118, 28),rgb(41, 41, 4),rgb(52, 150, 52),rgba(41, 192, 192, 0.61),indigo,violet); 
+}
+
+

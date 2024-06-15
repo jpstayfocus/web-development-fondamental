@@ -1,0 +1,1 @@
+"nameLast as nom, nameFirst as prenom, Salaries.teamID, Salaries.salary FROM Salaries, Master, (SELECT max(salary) as maximum FROM Salaries WHERE yearID="+$("#year").val()+") as fetchdata WHERE Salaries.salary = fetchdata.maximum and yearID="+$("#year").val()+" and Salaries.playerID=Master.playerID");

@@ -1,0 +1,1 @@
+"Master.nameGiven AS 'Nom Complet', G, W, SV, W+SV, L, SO, H, BB, IPouts, Salaries.salary FROM Pitching, Master INNER JOIN Salaries ON Master.playerID = Salaries.playerID WHERE Pitching.playerID = Master.playerID AND Pitching.yearID=1996 AND Salaries.yearID=1996 AND Pitching.GS=0 AND Pitching.teamID LIKE 'MON' AND Salaries.teamID LIKE 'MON' ORDER BY Pitching.W+SV DESC"
